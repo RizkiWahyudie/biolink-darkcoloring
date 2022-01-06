@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@500&family=Poppins:wght@300&display=swap');
+* {
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background: #272727;
+}
+
+.title {
+    color: #fff;
+}
+
+.img {
+    display: flex;
+    flex-direction: row;
+}
+
+.img_left,
+.img_center,
+.img_right {
+    flex: 33%;
+}
+
+.head_img {
+    width: 130px;
+    border-radius: 50%;
+    margin: 2.5rem 0 0;
+}
+
+.list_item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.list1,
+.list2,
+.list3,
+.list4,
+.list5 {
+    width: 100%;
+    color: #fff;
+    margin: 0.3rem 0;
+    border-radius: 13px;
+    transition: .2s;
+    text-decoration: none;
+}
+
+.list1 {
+    background: linear-gradient(225deg, #1400C8 0%, #B900B4 50.52%, #F50000 100%);
+}
+
+.list2 {
+    background: #128c7e;
+}
+
+.list2:hover {
+    background: #075e54;
+}
+
+.list3 {
+    background: rgb(236, 236, 236);
+    color: #000;
+}
+
+.list3:hover {
+    background: rgb(255, 255, 255);
+}
+
+.list4 {
+    background: #ff0000;
+}
+
+.list4:hover {
+    background: #be0b0b;
+}
+
+.list5 {
+    background: #FF6600;
+}
+
+.list5:hover {
+    background: #c05812;
+}
+
+.list1:hover,
+.list2:hover,
+.list3:hover,
+.list4:hover,
+.list5:hover {
+    /* transform: translateX(5px); */
+    transform: translateY(5px);
+}
+
+.icon {
+    display: flex;
+    flex-direction: row;
+    margin: 1.5rem;
+    color: #fff;
+}
+
+.icon_item {
+    flex: 20%;
+    font-size: 25px;
+    color: #fff;
+    text-decoration: none;
+}
+
+@media only screen and (min-width: 567px) {
+    .container {
+        margin: 0 10rem;
+    }
+}
